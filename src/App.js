@@ -1,12 +1,30 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import { connect } from 'react-redux';
+import Login from "./Login";
 
-function App() {
+const App = () => {
   return (
-    <div style={{display: "flex", alignItems: "center", padding: "1rem"}}>
-      <img src="./surf-break-costa-rica.png" alt="Surf Break Costa Rica Logo"width="150" height="150"></img>
-      <h1 style={{padding: "1rem"}}>Your Blank Canvas Awaits</h1>
+    <div>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Login/>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 };
 
-export default App;
+const mapStateToProps = state => {
+
+};
+
+export default connect(mapStateToProps)(App);
+
+
