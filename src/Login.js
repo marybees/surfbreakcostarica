@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { useForm } from "react-hook-form";
+import Navigation from './Navigation';
 
 const Login = (props) => {
     const { register, handleSubmit } = useForm();
@@ -8,6 +9,7 @@ const Login = (props) => {
 
     return (
         <div>
+        <Navigation />
             <div class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
                 <div class="max-w-md w-full space-y-8">
                     <div>
