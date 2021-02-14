@@ -6,6 +6,11 @@ import {
 } from "react-router-dom";
 import { connect } from 'react-redux';
 import Login from "./Login";
+import ClientHome from "./components/client/ClientHome";
+import FlightInfo from "./components/client/FlightInfo";
+import Itinerary from "./components/client/Itinerary";
+import Photos from "./components/client/Photos";
+import ReleaseForm from "./components/client/ReleaseForm";
 
 const App = () => {
   return (
@@ -14,6 +19,21 @@ const App = () => {
         <Switch>
           <Route exact path="/">
             <Login/>
+          </Route>
+          <Route exact path="/home">
+            <ClientHome />
+          </Route>
+          <Route exact path="/flightinfo">
+            <FlightInfo />
+          </Route>
+          <Route exact path="/itinerary">
+            <Itinerary />
+          </Route>
+          <Route exact path="/photos">
+            <Photos />
+          </Route>
+          <Route exact path="/releaseform">
+            <ReleaseForm />
           </Route>
         </Switch>
       </Router>
