@@ -24,11 +24,11 @@ export default function ClientNav() {
                             </div>
                             <div class="hidden sm:block sm:ml-6">
                                 <div class="flex space-x-4">
-                                    <a href="#" class="bg-turquoise text-white hover:bg-turquoise-dark px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
-                                    <a href="#" class="text-white hover:bg-turquoise hover:text-white px-3 py-2 rounded-md text-sm font-medium">Flight Info</a>
-                                    <a href="#" class="text-white hover:bg-turquoise hover:text-white px-3 py-2 rounded-md text-sm font-medium">Release Form</a>
-                                    <a href="#" class="text-white hover:bg-turquoise hover:text-white px-3 py-2 rounded-md text-sm font-medium">Itinerary</a>
-                                    <a href="#" class="text-white hover:bg-turquoise hover:text-white px-3 py-2 rounded-md text-sm font-medium">Photos</a>
+                                    <a href="/home" class="bg-turquoise text-white hover:bg-turquoise-dark px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+                                    <a href="/flightinfo" class="text-white hover:bg-turquoise hover:text-white px-3 py-2 rounded-md text-sm font-medium">Flight Info</a>
+                                    <a href="/releaseform" class="text-white hover:bg-turquoise hover:text-white px-3 py-2 rounded-md text-sm font-medium">Release Form</a>
+                                    <a href="/itinerary" class="text-white hover:bg-turquoise hover:text-white px-3 py-2 rounded-md text-sm font-medium">Itinerary</a>
+                                    <a href="/photos" class="text-white hover:bg-turquoise hover:text-white px-3 py-2 rounded-md text-sm font-medium">Photos</a>
                                 </div>
                             </div>
                         </div>
