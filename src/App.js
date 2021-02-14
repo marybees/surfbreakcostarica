@@ -11,6 +11,7 @@ import FlightInfo from "./components/client/FlightInfo";
 import Itinerary from "./components/client/Itinerary";
 import Photos from "./components/client/Photos";
 import ReleaseForm from "./components/client/ReleaseForm";
+import Footer from "./components/common/Footer";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 };
