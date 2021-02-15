@@ -53,6 +53,7 @@ export const FlightInfo = (props) => {
                                 // class="mt-1 focus:ring-turquoise focus:border-turquoise block w-full shadow-sm sm:text-sm border-gray rounded-md"
                                 country={'us'}
                                 value={phone}
+                                placeholder=""
                                 handleOnChange={handleOnChange}
                             />
                         </div>
