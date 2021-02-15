@@ -20,7 +20,7 @@ export const ClientHome = (props) => {
                     <h1 class="text-4xl tracking-tight font-extrabold text-gray-darkest sm:text-5xl md:text-6xl">
                         <div class="block">Hola, <span class="text-turquoise">Mary</span></div>
                     </h1>
-                    <p class="text-1xl tracking-tight font-extrabold text-gray-darkest sm:text-2xl md:text-3xl pt-6">There are <span class="text-turquoise">10</span> days left until your surf adventure!</p>
+                    <p class="text-1xl tracking-tight font-extrabold text-gray-darkest sm:text-2xl md:text-3xl pt-4 pb-6">There are <span class="text-turquoise">10</span> days left until your surf adventure!</p>
                     <p class="mt-3 text-base text-gray-darkest sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                         We can't wait to see you in beautiful Costa Rica! Before then, be sure to complete your pre-trip checklist.
                     </p>
