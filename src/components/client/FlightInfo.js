@@ -43,10 +43,11 @@ export const FlightInfo = (props) => {
                     Share Your Flight With Us
                 </h2>
             </div>
-            <div class=" p-8 bg-gray-lightest">
+
             {/* Top Border */}
+            <div class=" p-8 bg-gray-lightest">
             <div class="hidden sm:block" aria-hidden="true">
-                <div class="py-5">
+                <div class="pb-5">
                     <div class="border-t border-gray-light"></div>
                 </div>
             </div>
@@ -241,7 +242,7 @@ export const FlightInfo = (props) => {
             </div>
             {/* Bottom Border */}
             <div class="hidden sm:block" aria-hidden="true">
-                <div class="py-5">
+                <div class="pt-5">
                     <div class="border-t border-gray-light"></div>
                 </div>
             </div>
