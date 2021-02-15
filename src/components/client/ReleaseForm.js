@@ -21,7 +21,7 @@ export const ReleaseForm = (props) => {
                     </div>
                 </div>
             </div>
-            <div class="bg-gray text-gray-darkest">
+            <div class="bg-white text-gray-darkest">
                 <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
                     <div>
                         <p class="pb-8 font-bold text-2x1">By signing this form, you waive important rights and release Surf Break Costa Rica from all liability for your injury or death, so please read it carefully before signing.</p>
