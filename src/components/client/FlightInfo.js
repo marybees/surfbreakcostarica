@@ -37,6 +37,12 @@ export const FlightInfo = (props) => {
     return (
         <div>
             <ClientNav />
+            {/* Header */}
+            <div class="bg-gray-light">
+                <h2 class="text-2xl font-bold leading-7 text-gray-darkest sm:text-3xl sm:truncate px-8 py-8">
+                    Share Your Flight With Us
+                </h2>
+            </div>
             <div class=" p-8 bg-gray-lightest">
             {/* Top Border */}
             <div class="hidden sm:block" aria-hidden="true">
