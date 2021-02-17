@@ -10,6 +10,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.0",
     "axios": "^0.21.1",
+    "google-maps-react": "^2.0.6",
     "iata": "0.0.0",
     "postcss": "^7.0.35",
     "react": "^17.0.1",
